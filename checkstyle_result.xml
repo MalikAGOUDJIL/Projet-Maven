@@ -1,0 +1,36 @@
+<? xml version="1.0 »  encoding="UTF-8 »?>
+<!--
+Licencié à l’Apache Software Foundation (ASF) sous une
+ou plusieurs contrats de licence de contributeur. Voir le fichier NOTICE
+distribué avec cet ouvrage pour plus d’informations
+concernant la propriété des droits d’auteur. L’ASF octroie une licence pour ce fichier
+à vous sous la licence Apache, version 2.0 (le
+« Licence »); Vous ne pouvez pas utiliser ce fichier sauf en conformité
+avec la licence. Vous pouvez obtenir une copie de la licence à l’adresse
+    http://www.apache.org/licenses/LICENSE-2.0
+Sauf si la loi applicable l’exige ou si elle est convenue par écrit,
+le logiciel distribué sous la licence est distribué sur un
+« EN L’ÉTAT », SANS GARANTIE NI CONDITION DE TOUT
+GENRE, explicite ou implicite. Voir la licence pour le
+Langage spécifique régissant les autorisations et les limitations
+sous la licence.
+-->
+
+<checkstyle version="4.1 »>
+<file name="E:\scm\maven-plugins\maven-checkstyle-plugin\src\test\test-sources\package.html »>
+<error line="0 » severity="error » message="Fichier de documentation de package manquant. »  source="com.puppycrawl.tools.checkstyle.checks.javadoc.PackageHtmlCheck »/>
+</lime>
+<file name="E:\scm\maven-plugins\maven-checkstyle-plugin\src\test\test-sources\TestJavaObject.java »>
+<error line="0 » severity="error » message="Le fichier ne se termine pas par une nouvelle ligne. »  source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck »/>
+</lime>
+<file name="E:\scm\maven-plugins\maven-checkstyle-plugin\src\test\test-sources\TestJavaObject.java »>
+<error line="1 » severity="error » message="Missing a Javadoc comment. »  source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck »/>
+<error line="2 » column="5 » severity="error » message="Missing a Javadoc comment. »  source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck »/>
+<error line="6 » column="5 » severity="error » message="Missing a Javadoc comment. »  source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck »/>
+</lime>
+</checkstyle>
+Pied de page
+© 2023 GitHub, Inc.
+Navigation au pied de page
+Petits caractères
+Vie p
